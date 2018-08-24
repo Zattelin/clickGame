@@ -1,0 +1,21 @@
+
+.wrapper {
+    background: rgb(255, 255, 255);
+    background: url("https://orig00.deviantart.net/c6bf/f/2010/204/6/0/1920x1080__animated_mario_gif_by_colinplox.gif") no-repeat center center fixed; 
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+    overflow: auto;
+    padding-bottom: 50px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .wrapper > .container > .row {
+    margin-right: 40px;
+    margin-left: 40px;
+  }
